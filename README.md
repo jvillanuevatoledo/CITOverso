@@ -9,7 +9,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## 🖥️ [MÓDULO 1: R como herramienta para la Citometría de Flujo](https://github.com/jvillanuevatoledo/CITOverso/tree/main/module-1)
+## 🖥️ [MÓDULO 1: R como herramienta para la Citometría de Flujo](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_1)
 
 - **OBJETIVO**: Familiarizarse con el entorno de R y las estructuras de datos específicas para citometría
 - **CONTENIDO**:
