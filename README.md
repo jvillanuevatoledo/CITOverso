@@ -12,10 +12,10 @@ De los datos crudos a los resultados publicables
 
 - **OBJETIVO**: Familiarizarse con el entorno de R y las estructuras de datos específicas para citometría
 - **CONTENIDO**:
-  - 1.1. **R y RStudio para Citometristas**: Un repaso rápido de la interfaz, scripts, y la gestión de proyectos en RStudio
-  - 1.2. **Bioconductor, el aliado del Citometrista**: ¿Qué es y por qué es el ecosistema esencial para el análisis genómico y de citometría en R?
+  - 1.1. **R y RStudio para citometristas**: Un repaso rápido de la interfaz, scripts, y la gestión de proyectos en RStudio
+  - 1.2. **Bioconductor, el aliado del citometrista**: ¿Qué es y por qué es el ecosistema esencial para el análisis genómico y de citometría en R?
   - 1.3. **Paquetes Clave: Instalación y carga de los paquetes fundamentales**: flowCore (para la interacción básica con archivos FCS), flowWorkspace (para manejar múltiples muestras y gating) y ggcyto (para la visualización avanzada)
-  - 1.4. **Importación y Exploración de Datos**: Cómo leer archivos FCS en R y examinar los metadatos (parámetros, información del experimento, etc.):
+  - 1.4. **Importación y exploración de datos**: Cómo leer archivos FCS en R y examinar los metadatos (parámetros, información del experimento, etc.):
     - 1.4.1. El Objeto **flowFrame**: La unidad fundamental. Cómo leer un único archivo .fcs en R
       - Accediendo a los metadatos: keywords() (voltajes, configuración del citómetro)
       - Explorando los canales/parámetros: colnames()
@@ -33,7 +33,7 @@ De los datos crudos a los resultados publicables
   - 2.1. **Compensación en R**: Cómo importar la matriz de compensación del archivo FCS o, más importante, cómo aplicar una nueva matriz de compensación directamente en el código. Discusión sobre las ventajas de hacerlo programáticamente
     - Extraer y examinar la matriz de compensación original del .fcs
     - Ejercicio Práctico: Aplicar una nueva matriz de compensación "on-the-fly" y comparar visualmente el antes y el después. Discutir por qué esto es superior a sobreescribir el archivo original.
-  - 2.2. **Transformación de Datos**: El "porqué" y el "cómo" de las transformaciones (logarítmica, biexponencial - logicle). Visualización del efecto de la transformación en la resolución de poblaciones?
+  - 2.2. **Transformación de datos**: El "porqué" y el "cómo" de las transformaciones (logarítmica, biexponencial - logicle). Visualización del efecto de la transformación en la resolución de poblaciones?
     - Aplicar transformaciones log y biexponencial (logicle o hyperlog)
     - Ejercicio Práctico: Visualizar un mismo ploteo con diferentes ajustes de transformación para entender cómo impactan en la separación de poblaciones tenues vs. brillantes
   - 2.3. **Control de calidad (QC) automatizado**: Uso de R para filtrar eventos no deseados (detritos, dobletes, células muertas) de manera consistente en todo un experimento. Introducción a paquetes como flowAI para detectar anomalías en la adquisición de forma automática
@@ -52,12 +52,12 @@ De los datos crudos a los resultados publicables
   - 3.1. **Visualización con ggcyto**: Creación de gráficos de puntos (dot plots) y de contorno de alta calidad. ggcyto utiliza la misma gramática que ggplot2, el estándar de oro para la visualización en R
     - Construyendo gráficos ggplot2-style: capas, estéticas (aes), y geometrías (geom_hex, geom_point)
     - Personalización de ejes, títulos y límites para una claridad máxima
-  - 3.2. **Definición de Poblaciones (_Gating_)**:
+  - 3.2. **Definición de poblaciones (_Gating_)**:
     - Creación de gates bidimensionales (e.g., rectangleGate, polygonGate, ellipseGate) directamente en el código
     - Aplicación secuencial de gates para construir un árbol de gating jerárquico
     - El objeto GatingSet: Una estructura poderosa para aplicar un árbol de gating a todo un flowSet de una sola vez
   - 3.3. **Automatización del _Gating_**: Cómo aplicar un árbol de gating definido a un conjunto completo de muestras (flowSet) con unas pocas líneas de código
-  - 3.4. **Extracción de Estadísticas**: Obtención de frecuencias poblacionales y medianas de intensidad de fluorescencia (MFI) de manera automática para todas las muestras y poblaciones. Exportación de resultados a un archivo CSV para su posterior análisis
+  - 3.4. **Extracción de estadísticas**: Obtención de frecuencias poblacionales y medianas de intensidad de fluorescencia (MFI) de manera automática para todas las muestras y poblaciones. Exportación de resultados a un archivo CSV para su posterior análisis
 
 ---
 
@@ -65,15 +65,15 @@ De los datos crudos a los resultados publicables
 
 - **OBJETIVO**: Transformar los resultados del análisis en productos finales profesionales y reproducibles
 - **CONTENIDO**:
-  - 4.1. **Gráficos con Calidad de Publicación**:
+  - 4.1. **Gráficos con calidad de publicación**:
     - Afinando los gráficos de ggcyto: cambio de colores, temas, tamaños de fuente
     - Cómo superponer el gating sobre los gráficos para mostrar la estrategia de análisis
     - Exportar gráficos en alta resolución (PNG, TIFF, PDF)
   - 4.2. **Introducción a R _Markdown_**:
     - El concepto de "investigación reproducible"
     - Combinando texto (explicaciones, como en un “paper”), código R y sus salidas (gráficos, tablas) en un único documento
-  - 4.3. **Creando tu Primer Reporte de Análisis**:
-    - **Proyecto Final**: Construir un reporte en R Markdown que documente todo el análisis de un pequeño set de datos: desde la carga y QC, pasando por el gating, hasta la presentación de los gráficos y tablas de estadísticas finales con sus respectivas conclusiones.
+  - 4.3. **Creando tu primer reporte de análisis**:
+    - **Proyecto final**: Construir un reporte en R Markdown que documente todo el análisis de un pequeño set de datos: desde la carga y QC, pasando por el gating, hasta la presentación de los gráficos y tablas de estadísticas finales con sus respectivas conclusiones.
 
 ---
 
