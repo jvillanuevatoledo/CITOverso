@@ -26,7 +26,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## ⚙️ MÓDULO 2: Pre-procesamiento y Robusto y Reproducible
+## ⚙️ MÓDULO 2: Pre-procesamiento robusto y reproducible
 
 - **OBJETIVO**: Aplicar el conocimiento experto en citometría para realizar un pre-procesamiento robusto y reproducible directamente en R
 - **CONTENIDO**:
@@ -36,7 +36,7 @@ De los datos crudos a los resultados publicables
   - 2.2. **Transformación de Datos**: El "porqué" y el "cómo" de las transformaciones (logarítmica, biexponencial - logicle). Visualización del efecto de la transformación en la resolución de poblaciones?
     - Aplicar transformaciones log y biexponencial (logicle o hyperlog)
     - Ejercicio Práctico: Visualizar un mismo ploteo con diferentes ajustes de transformación para entender cómo impactan en la separación de poblaciones tenues vs. brillantes
-  - 2.3. **Control de Calidad (QC) Automatizado**: Uso de R para filtrar eventos no deseados (detritos, dobletes, células muertas) de manera consistente en todo un experimento. Introducción a paquetes como flowAI para detectar anomalías en la adquisición de forma automática
+  - 2.3. **Control de calidad (QC) automatizado**: Uso de R para filtrar eventos no deseados (detritos, dobletes, células muertas) de manera consistente en todo un experimento. Introducción a paquetes como flowAI para detectar anomalías en la adquisición de forma automática
     - Construir un script de R para realizar un QC secuencial
     - Paso 1: Gating de células únicas para eliminar dobletes (ej. FSC-A vs FSC-H)
     - Paso 2: Gating para eliminar detritos (ej. FSC-A vs SSC-A)
@@ -45,7 +45,7 @@ De los datos crudos a los resultados publicables
   
 ---
 
-## 🎯 MÓDULO 3: _Gating_ Bidimensional y Extracción de Estadísticas
+## 🎯 MÓDULO 3: _Gating_ bidimensional y extracción de estadísticas
 
 - **OBJETIVO**: Traducir la estrategia de gating manual (que ya dominan) a un flujo de trabajo programático en R, permitiendo la reproducibilidad y el análisis por lotes
 - **CONTENIDO**:
@@ -61,7 +61,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## 📊✍️ MÓDULO 4: Visualización para Publicación y Reportes Automatizados
+## 📊✍️ MÓDULO 4: Visualización para publicación y reportes Aautomatizados
 
 - **OBJETIVO**: Transformar los resultados del análisis en productos finales profesionales y reproducibles
 - **CONTENIDO**:
