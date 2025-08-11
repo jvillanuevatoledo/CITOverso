@@ -78,6 +78,22 @@ De los datos crudos a los resultados publicables
 
 ---
 
+## 📊✍️ MÓDULO 5: Visualización para publicación y reportes Aautomatizados
+
+- **OBJETIVO**: Transformar los resultados del análisis en productos finales profesionales y reproducibles
+- **CONTENIDO**:
+  - 5.1. **Gráficos con calidad de publicación**:
+    - Afinando los gráficos de ggcyto: cambio de colores, temas, tamaños de fuente
+    - Cómo superponer el gating sobre los gráficos para mostrar la estrategia de análisis
+    - Exportar gráficos en alta resolución (PNG, TIFF, PDF)
+  - 5.2. **Introducción a R _Markdown_**:
+    - El concepto de "investigación reproducible"
+    - Combinando texto (explicaciones, como en un “paper”), código R y sus salidas (gráficos, tablas) en un único documento
+  - 5.3. **Creando tu primer reporte de análisis**:
+    - **Proyecto final**: Construir un reporte en R Markdown que documente todo el análisis de un pequeño set de datos: desde la carga y QC, pasando por el gating, hasta la presentación de los gráficos y tablas de estadísticas finales con sus respectivas conclusiones.
+
+---
+
 ## 📫 Contáctame
 <p align="center">
   <a href="mailto:jvillanuevatoledo@gmail.com" target="_blank">
