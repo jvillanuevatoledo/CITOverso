@@ -5,6 +5,7 @@ De los datos crudos a los resultados publicables
 - **AUDIENCIA**: Expertos en Citometría de Flujo, con conocimientos básicos en R
 - **OBJETIVO FINAL**: Capacitar al estudiante para que pueda tomar un conjunto de datos de citometría (archivos .fcs) y realizar un análisis bidimensional completo, reproducible y de alta calidad, culminando en figuras y estadísticas listas para un reporte o publicación
 - **DURACIÓN**: Consta de cinco sesiones de 2 horas cada una, más actividades extraclases
+- **NOTA**: Este no es un curso introductorio a R, ni aborda los principios o aplicaciones de la citometría de flujo. Su objetivo es enseñar el análisis de datos de citometría de flujo utilizando herramientas bioinformáticas como R.
 
 ---
 
