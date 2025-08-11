@@ -8,7 +8,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## 🖥️ MÓDULO 1: R como Herramienta para la Citometría de Flujo
+## 🖥️ MÓDULO 1: R como herramienta para la Citometría de Flujo
 
 - **OBJETIVO**: Familiarizarse con el entorno de R y las estructuras de datos específicas para citometría
 - **CONTENIDO**:
