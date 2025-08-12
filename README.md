@@ -27,7 +27,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## ⚙️ [MÓDULO 2: Pre-procesamiento robusto y reproducible](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_2)
+## 🧪 [MÓDULO 2: Pre-procesamiento robusto y reproducible](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_2)
 
 - **OBJETIVO**: Aplicar el conocimiento experto en citometría para realizar un pre-procesamiento robusto y reproducible directamente en R
 - **CONTENIDO**:
@@ -46,7 +46,7 @@ De los datos crudos a los resultados publicables
   
 ---
 
-## 🎯 [MÓDULO 3: _Gating_ bidimensional y extracción de estadísticas](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_3)
+## 📊 [MÓDULO 3: _Gating_ bidimensional y extracción de estadísticas](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_3)
 
 - **OBJETIVO**: Traducir la estrategia de gating manual (que ya dominan) a un flujo de trabajo programático en R, permitiendo la reproducibilidad y el análisis por lotes
 - **CONTENIDO**:
@@ -62,7 +62,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## 📊✍️ [MÓDULO 4: Visualización para publicación y reportes automatizados](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_4)
+## 🔬 [MÓDULO 4: Visualización para publicación y reportes automatizados](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_4)
 
 - **OBJETIVO**: Transformar los resultados del análisis en productos finales profesionales y reproducibles
 - **CONTENIDO**:
@@ -78,7 +78,7 @@ De los datos crudos a los resultados publicables
 
 ---
 
-## 📊✍️ [MÓDULO 5: Visualización para publicación y reportes automatizados](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_5)
+## ✍️ [MÓDULO 5: Visualización para publicación y reportes automatizados](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_5)
 
 - **OBJETIVO**: Transformar los resultados del análisis en productos finales profesionales y reproducibles
 - **CONTENIDO**:
