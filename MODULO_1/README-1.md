@@ -13,3 +13,9 @@
     - 1.4.2. El Objeto **flowSet**: Manejando el experimento completo
       - Cómo importar múltiples archivos .fcs a la vez
       - Herramientas para gestionar el flowSet: sampleNames(), pData() para añadir metadatos del experimento (ej. Controles, Tratamientos, Pacientes)
+
+---
+
+<p align="center">
+  <sub>Creado con ❤️ por <a href="https://github.com/jvillanuevatoledo">Jairo Villanueva</a></sub>
+</p>
