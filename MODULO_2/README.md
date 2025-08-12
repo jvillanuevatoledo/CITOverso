@@ -1,4 +1,4 @@
-## ⚙️ [MÓDULO 2: Pre-procesamiento robusto y reproducible](https://github.com/jvillanuevatoledo/CITOverso/tree/main/MODULO_2)
+## ⚙️ MÓDULO 2: Pre-procesamiento robusto y reproducible
 
 - **OBJETIVO**: Aplicar el conocimiento experto en citometría para realizar un pre-procesamiento robusto y reproducible directamente en R
 - **CONTENIDO**:
