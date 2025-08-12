@@ -102,8 +102,6 @@ De los datos crudos a los resultados publicables
   <a href="https://www.linkedin.com/in/jairo-r-v-8a1192204" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-   <a href="https://www.facebook.com/citometriadeflujo" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
 </p>
 
 ---
